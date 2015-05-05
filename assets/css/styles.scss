@@ -1,26 +1,28 @@
 ---
 ---
 // SETTINGS
-@import 'settings/variables';
+@import           'settings/variables';
 // PLUGINS
-@import 'bourbon/bourbon';
-@import 'jeet/index';
-@import 'base/mediaqueries';
-@import 'base/normalize';
+@import           'bourbon/bourbon';
+@import           'jeet/index';
+@import           'base/mediaqueries';
+@import           'base/normalize';
 // MIXINS
-@import 'mixins/mixins';
+@import           'mixins/mixins';
 // EXTEND
-@import 'extend/placeholders';
+@import           'extend/placeholders';
 // BASE
-@import 'base/helpers';
-@import 'base/fonts';
-@import 'base/typography';
+@import           'base/helpers';
+@import           'base/fonts';
+@import           'base/typography';
+@import           'base/colors';
 // LAYOUT
-@import 'layouts/default.scss';
-@import 'layouts/home.scss';
+@import           'layouts/default.scss';
 // MODULES
-
+@import           'modules/masthead.scss';
+@import           'modules/posts.scss';
+@import           'modules/tags.scss';
 // PAGES
 
 // OH SHIT
-@import 'ohshit';
+@import           'ohshit';

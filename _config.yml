@@ -7,6 +7,10 @@ description:          Benjamin Kinzer - Creative Director and Designer who loves
 baseurl:              "" # subpath if necessary, e.g. /blog/
 url:                  "http://benjaminkinzer.com" # base url http://url.com
 
+# TAGGING
+tag_page_layout:      tags
+tag_page_dir:         tag
+
 # GOOGLE ANALYTICS
 google_analytics:     UA-857352-1
 

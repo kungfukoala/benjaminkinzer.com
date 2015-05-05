@@ -1,29 +1,24 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
-=======
-<div class="welcome">
-  <h3>Why is this site look like it was made in 1989? Read <a href="{% post_url 2015-04-27-unknown-truths %}">Unknown Truths</a>.</h3> 
-</div>
->>>>>>> master
 <div class="home">
   <div class="posts">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       <div class="post">
         {% if post.feature-image %}
-        <div class="feature-image" style="background-image:url({{ "/images/" | prepend: site.baseurl }}{{ post.feature-image }}); background-color:;"></div>
+        <div class="post-feature {{ post.background-color }}" style="background-image:url({{ "/images/" | prepend: site.baseurl }}{{ post.feature-image }});">
+          <header class="post-header">
+            <h3 class="post-title">{{ post.title }}</h3>
+            {% for tag in post.tags %}
+              <a class="tag" href="{{ site.baseurl }}/tag/{{ tag | slugize }}/">
+                {{ tag }}
+              </a>
+            {% endfor %}
+          </header>
+        </div>
         {% endif %}
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
-        <p class="post-summary">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
-        </p>
       </div>
     {% endfor %}
   </div>
 </div>
+
