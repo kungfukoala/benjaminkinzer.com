@@ -18,11 +18,12 @@
 @import           'base/colors';
 // LAYOUT
 @import           'layouts/default.scss';
+
 // MODULES
 @import           'modules/masthead.scss';
 @import           'modules/posts.scss';
 @import           'modules/tags.scss';
 // PAGES
-
+@import           'layouts/work.scss';
 // OH SHIT
 @import           'ohshit';

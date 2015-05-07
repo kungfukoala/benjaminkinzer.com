@@ -1,20 +1,26 @@
-.masthead {
-  padding-top:170px;
+.masthead { 
   @include col(1/1);
-  margin-bottom:$spacing-medium;
+  padding-bottom:500px;
 }
 .logo {
-  margin:$spacing-xsmall 0;
+
   @include max-screen(nth($res-collection, 4)*1px) {
     margin:$spacing-xsmall $spacing-small;
   }
   a {
-    font-size:$font-small;
+    font-weight:$font-bold;
+    text-transform:uppercase;
     text-decoration:none;
-    font-weight:$font-light;
-    @include max-screen(nth($res-collection, 2)*1px) {
-      font-size:$font-medium;
-    }
+  }
+}
+.navigation {
+  @include navigation-horizontal($a-padding: 0 25px 0 0);
+  margin:$spacing-xsmall 0;
+  h1, a {
+    font-size:$font-small;
+  }
+  ul li {
+    
   }
 }
 .information {
