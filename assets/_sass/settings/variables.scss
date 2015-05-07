@@ -40,6 +40,7 @@ $spacing-xsmall:                      $spacing-base/10;
 // COLORS
 //
 $black:                               rgb(0,0,0);
+$dark-grey:                           rgb(65,65,65);
 $grey:                                rgb(120,120,120);
 $light-grey:                          rgb(200,200,200);
 $yellow:                              yellow;
@@ -52,6 +53,8 @@ $tertiary:                            $light-grey;
 $font-color:                          $primary;
 $heading-font-color:                  $font-color;
 $background-color:                    white;
+// FORM COLORS
+$placeholder-color:                   $dark-grey;
 //
 //
 // ASSETS

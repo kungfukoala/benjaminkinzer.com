@@ -535,6 +535,20 @@ a:hover {
 .yellow-background {
   background-color: yellow; }
 
+::-webkit-input-placeholder {
+  color: #414141; }
+
+:-moz-placeholder {
+  color: #414141;
+  opacity: 1; }
+
+::-moz-placeholder {
+  color: #414141;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #414141; }
+
 body {
   -webkit-font-feature-settings: "kern", "liga", "pnum";
   -moz-font-feature-settings: "kern", "liga", "pnum";
@@ -614,15 +628,40 @@ body {
   margin: 0.675em 0; }
 
 .footer {
-  height: 150px;
   color: white;
   background-color: black; }
+  .footer a {
+    color: white; }
+  .footer .contact, .footer .newsletter, .footer .legal {
+    float: left;
+    clear: none;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    padding: 1.35em 0;
+    text-align: center; }
+    .footer .contact:last-child, .footer .newsletter:last-child, .footer .legal:last-child {
+      margin-right: 0%; }
+  .footer .newsletter .email, .footer .newsletter .name {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 300px;
+    color: #777;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #787878; }
+  .footer .newsletter .name {
+    padding-top: 0.675em; }
+  .footer .newsletter .button {
+    margin-top: 1.35em;
+    background-color: black;
+    border: 2px solid white; }
+  .footer .contact .description {
+    font-weight: 800; }
   .footer .legal {
-    padding: 1.35em; }
-  .footer .contact {
-    padding: 1.35em; }
-  .footer .social {
-    padding: 1.35em; }
+    text-align: center;
+    padding: 1.7em 0; }
 
 .post-feature {
   background-position: center;

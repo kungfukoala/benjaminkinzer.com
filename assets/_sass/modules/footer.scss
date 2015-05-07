@@ -1,14 +1,41 @@
 .footer {
-  height:150px;
   color:white;
   background-color:$primary;
-  .legal {
-    padding:$spacing-medium;
+  a {
+    color:white;
+  }
+  .contact, .newsletter, .legal {
+    @include col(1/1);
+    padding:$spacing-medium 0;
+    text-align:center;
+  }
+  .newsletter {
+    .email, .name {
+      -webkit-appearance:none;
+      height:25px;
+      width:300px;
+      color:#777;
+      border:0;
+      outline:0;
+      background:transparent;
+      border-bottom:2px solid $grey;
+    }
+    .name {
+      padding-top:$spacing-small;
+    }
+    .button {
+      margin-top:$spacing-medium;
+      background-color:$primary;
+      border:2px solid white;
+    }
   }
   .contact {
-    padding:$spacing-medium;
+    .description {
+      font-weight:800;
+    }
   }
-  .social {
-    padding:$spacing-medium;
+  .legal {
+    text-align:center;
+    padding:$spacing-large 0;
   }
 }
