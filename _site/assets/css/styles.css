@@ -498,38 +498,36 @@ img {
   -ms-interpolation-mode: bicubic; }
 
 @font-face {
-  font-family: "adagio-serif";
+  font-family: "franklin-gothic";
   font-style: normal;
   font-weight: normal;
-  src: url("/assets/fonts/adagio-serif.woff") format("woff"), url("/assets/fonts/adagio-serif.ttf") format("truetype"); }
+  src: url("/assets/fonts/FranklinGothic-Book-webfont.woff") format("woff"), url("/assets/fonts/FranklinGothic-Book-webfont.ttf") format("truetype"); }
 @font-face {
-  font-family: "adagio-serif";
+  font-family: "franklin-gothic";
   font-style: italic;
   font-weight: normal;
-  src: url("/assets/fonts/adagio-serif-regular-italic.woff") format("woff"), url("/assets/fonts/adagio-serif-regular-italic.ttf") format("truetype"); }
+  src: url("/assets/fonts/FranklinGothic-BookIt-webfont.woff") format("woff"), url("/assets/fonts/FranklinGothic-BookIt-webfont.ttf") format("truetype"); }
 @font-face {
-  font-family: "adagio-serif";
+  font-family: "franklin-gothic";
   font-style: normal;
-  font-weight: 100;
-  src: url("/assets/fonts/adagio-serif-light.woff") format("woff"), url("/assets/fonts/adagio-serif-light.ttf") format("truetype"); }
+  font-weight: 800;
+  src: url("/assets/fonts/FranklinGothic-Hvy-webfont.woff") format("woff"), url("/assets/fonts/FranklinGothic-Hvy-webfont.ttf") format("truetype"); }
 @font-face {
-  font-family: "adagio-serif";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/assets/fonts/adagio-serif-semibold.woff") format("woff"), url("/assets/fonts/adagio-serif-semibold.ttf") format("truetype"); }
-@font-face {
-  font-family: "adagio-serif";
+  font-family: "franklin-gothic";
   font-style: italic;
-  font-weight: 700;
-  src: url("/assets/fonts/adagio-serif-semibold-italic.woff") format("woff"), url("/assets/fonts/adagio-serif-semibold-italic.ttf") format("truetype"); }
-a {
-  color: #787878; }
+  font-weight: 800;
+  src: url("/assets/fonts/FranklinGothic-HvyIt-webfont.woff") format("woff"), url("/assets/fonts/FranklinGothic-HvyIt-webfont.ttf") format("truetype"); }
+a, a:visited {
+  color: black; }
+
+a:hover {
+  border-top: 1px solid #c8c8c8; }
 
 .light-grey {
-  color: #e1e1e1; }
+  color: #c8c8c8; }
 
 .light-grey-background {
-  background-color: #e1e1e1; }
+  background-color: #c8c8c8; }
 
 .yellow {
   color: yellow; }
@@ -544,7 +542,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: black;
-  font-family: "adagio-serif";
+  font-family: "franklin-gothic";
   font-size: 1em; }
 
 .container {
@@ -557,58 +555,68 @@ body {
   padding-left: 0;
   padding-right: 0; }
 
-.masthead {
-  padding-top: 170px;
+.post {
+  float: left;
+  clear: none;
+  width: 28.0%;
+  margin-left: 0%;
+  margin-right: 8%;
+  margin-bottom: 8em;
+  height: 400px; }
+  .post:nth-of-type(3n) {
+    margin-right: 0%;
+    float: right; }
+  .post:nth-of-type(3n + 1) {
+    clear: both; }
+
+.footer {
   float: left;
   clear: none;
   width: 100%;
   margin-left: 0%;
-  margin-right: 3%;
-  margin-bottom: 1.35em; }
+  margin-right: 3%; }
+  .footer:last-child {
+    margin-right: 0%; }
+
+.masthead {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%; }
   .masthead:last-child {
     margin-right: 0%; }
 
-.logo {
-  margin: 0.45em 0; }
-  @media screen and (max-width: 1024px) {
-    .logo {
-      margin: 0.45em 0.675em; } }
-  .logo a {
+.navigation {
+  margin: 1.35em 0;
+  font-weight: 800; }
+  .navigation ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; }
+  .navigation li {
+    float: left;
+    display: inline;
+    margin: 0 0.27em 0 0; }
+  .navigation h1 {
+    margin: 0; }
+  .navigation h1, .navigation a {
     font-size: 1em;
     text-decoration: none;
-    font-weight: 100; }
-    @media screen and (max-width: 480px) {
-      .logo a {
-        font-size: 1.2em; } }
+    text-transform: uppercase; }
+  .navigation .inactive {
+    color: #c8c8c8; }
 
-.information {
-  line-height: 1.7em; }
-  @media screen and (max-width: 1024px) {
-    .information {
-      margin: 0 1.35em; } }
-
-.subtitle, .address {
+.subtitle {
+  line-height: 1.7em;
   margin: 0.675em 0; }
 
-.address {
-  padding-left: 0.45em; }
-  @media screen and (max-width: 1024px) {
-    .address {
-      padding-left: 0; } }
-
 .post-feature {
-  position: relative;
-  float: left;
-  clear: none;
-  width: 100%;
-  margin-left: 0%;
-  margin-right: 3%;
-  height: 750px;
   background-position: center;
   background-size: 30%;
   background-repeat: no-repeat; }
-  .post-feature:last-child {
-    margin-right: 0%; }
   @media screen and (min-width: 1680px) {
     .post-feature {
       height: 625px;
@@ -637,10 +645,10 @@ body {
 
 .tag {
   padding: 0.4em 0.7em;
-  color: #e1e1e1;
-  font-family: "helvetica nueue", helvetica;
-  background-color: #787878;
-  font-size: 0.7em;
+  color: #c8c8c8;
+  font-family: "franklin-gothic", helvetica;
+  background-color: #666666;
+  font-size: 0.8em;
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: capitalize;
@@ -648,6 +656,11 @@ body {
   border-top-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px; }
+
+.flatsound-vinyl {
+  background: url(/images/flatsound/flatsound-interior-personal.png) no-repeat 0px 0px;
+  background-position: center;
+  background-size: 100%; }
 
 .juju-wallpaper {
   float: left;

@@ -1,25 +1,25 @@
-@mixin unordered {
-	 list-style-position:outside; 
-	 list-style-type:disc;
-}
-
-@mixin unordered-inside {
-	 list-style-position:inside; 
-	 list-style-type:disc;
-}
-
-@mixin ordered {
-	list-style-position:outside; 
-	list-style-type:decimal;
-}
-
-@mixin ordered-inside {
-	list-style-position:inside; 
-	list-style-type:decimal;
-}
-
-@mixin nobullet {
-	list-style-type: none;
+@mixin navigation-horizontal($width: false, $margin: false) {
+  ul {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+  }
+  a {
+    @if not $width {
+    } @else {
+      width: $width;
+    }
+  }
+  li {
+    float:left;
+    display: inline;
+    @if not $margin {
+    } @else {
+      margin:$margin;
+    }
+  }
 }
 
 @mixin background-image($img-name, $repeat:no-repeat, $x:0px, $y:0px) {

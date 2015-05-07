@@ -17,7 +17,7 @@ google_analytics:     UA-857352-1
 # BUILD SETTINGS
 markdown:             kramdown
 permalink:            pretty
-paginate:             3
+paginate:             
 sass:
   sass_dir:           /assets/_sass/
   compressed:         true

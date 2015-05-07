@@ -1,34 +1,24 @@
-.masthead {
-  padding-top:170px;
+.masthead { 
   @include col(1/1);
-  margin-bottom:$spacing-medium;
 }
-.logo {
-  margin:$spacing-xsmall 0;
-  @include max-screen(nth($res-collection, 4)*1px) {
-    margin:$spacing-xsmall $spacing-small;
+.navigation {
+  @include navigation-horizontal($margin: 0 $spacing-xsmall 0 0);
+  margin:$spacing-medium 0;
+  font-weight:$font-bold;
+  h1 {
+    margin:0;
   }
-  a {
+  h1, a {
     font-size:$font-small;
     text-decoration:none;
-    font-weight:$font-light;
-    @include max-screen(nth($res-collection, 2)*1px) {
-      font-size:$font-medium;
-    }
+    text-transform:uppercase;
+    
+  }
+  .inactive {
+    color:$tertiary;
   }
 }
-.information {
+.subtitle {
   line-height:$spacing-large;
-  @include max-screen(nth($res-collection, 4)*1px) {
-    margin:0 $spacing-medium;
-  }
-}
-.subtitle, .address {
   margin:$spacing-small 0;
-}
-.address {
-  padding-left:$spacing-xsmall;
-  @include max-screen(nth($res-collection, 4)*1px) {
-    padding-left:0;
-  }
 }
