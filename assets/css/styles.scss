@@ -16,11 +16,13 @@
 @import           'base/fonts';
 @import           'base/typography';
 @import           'base/colors';
+@import           'base/forms';
 // LAYOUT
 @import           'layouts/default.scss';
 
 // MODULES
 @import           'modules/masthead.scss';
+@import           'modules/footer.scss';
 @import           'modules/posts.scss';
 @import           'modules/tags.scss';
 // PAGES
