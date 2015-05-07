@@ -3,29 +3,20 @@
     <ul>
       <li>
         <h1 class="logo">
-          <a href="{{ "/" | prepend: site.baseurl }}" class="site-title">
-            {{ site.title }}
+          <a href="{{ "/" | prepend: site.baseurl }}" class="{% if page.permalink != inactive %}inactive{% endif %}">
+            {{ site.title }} /
           </a>
         </h1>
       </li>
-      <li>
-        <a href="">Work</a>
-      </li>
+      {% for link_hash in site.data.navigation.main_navigation %}
+      {% assign link = link_hash[1] %}
+      {% capture inactive %}{{ link.url | handle }}{% endcapture %}
+        <li><a href="{{ link.url | prepend: site.baseurl }}" class="{% if page.permalink != inactive %}inactive{% endif %}">{{ link.text }} /</a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
-  
-  <aside class="information">
-    <span class="subtitle">
-      {{ site.subtitle }}
-    </span>
-    <span class="address">
-      <a href="mailto:ben@benjaminkinzer.com">
-        ben@benjaminkinzer.com
-      </a>
-      +1.541.610.8948
-    </span>
-    {% if site.show_social %}
-      {% include social.html %}
-    {% endif %}
-  </aside>
+  <div class="subtitle">
+    {{ site.subtitle }}
+  </div>
 </header>

@@ -517,14 +517,17 @@ img {
   font-style: italic;
   font-weight: 800;
   src: url("/assets/fonts/FranklinGothic-HvyIt-webfont.woff") format("woff"), url("/assets/fonts/FranklinGothic-HvyIt-webfont.ttf") format("truetype"); }
-a {
-  color: #787878; }
+a, a:visited {
+  color: black; }
+
+a:hover {
+  border-top: 1px solid #c8c8c8; }
 
 .light-grey {
-  color: #e1e1e1; }
+  color: #c8c8c8; }
 
 .light-grey-background {
-  background-color: #e1e1e1; }
+  background-color: #c8c8c8; }
 
 .yellow {
   color: yellow; }
@@ -580,49 +583,35 @@ body {
   clear: none;
   width: 100%;
   margin-left: 0%;
-  margin-right: 3%;
-  padding-bottom: 500px; }
+  margin-right: 3%; }
   .masthead:last-child {
     margin-right: 0%; }
 
-@media screen and (max-width: 1024px) {
-  .logo {
-    margin: 0.45em 0.675em; } }
-.logo a {
-  font-weight: 800;
-  text-transform: uppercase;
-  text-decoration: none; }
-
 .navigation {
-  margin: 0.45em 0; }
+  margin: 1.35em 0;
+  font-weight: 800; }
   .navigation ul {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0;
     list-style-type: none; }
-  .navigation a {
-    float: left;
-    padding: 0 25px 0 0; }
   .navigation li {
-    display: inline; }
+    float: left;
+    display: inline;
+    margin: 0 0.27em 0 0; }
+  .navigation h1 {
+    margin: 0; }
   .navigation h1, .navigation a {
-    font-size: 1em; }
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .navigation .inactive {
+    color: #c8c8c8; }
 
-.information {
-  line-height: 1.7em; }
-  @media screen and (max-width: 1024px) {
-    .information {
-      margin: 0 1.35em; } }
-
-.subtitle, .address {
+.subtitle {
+  line-height: 1.7em;
   margin: 0.675em 0; }
-
-.address {
-  padding-left: 0.45em; }
-  @media screen and (max-width: 1024px) {
-    .address {
-      padding-left: 0; } }
 
 .post-feature {
   background-position: center;
@@ -656,9 +645,9 @@ body {
 
 .tag {
   padding: 0.4em 0.7em;
-  color: #e1e1e1;
+  color: #c8c8c8;
   font-family: "franklin-gothic", helvetica;
-  background-color: #787878;
+  background-color: #666666;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-decoration: none;

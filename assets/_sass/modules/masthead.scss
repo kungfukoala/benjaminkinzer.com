@@ -1,40 +1,24 @@
 .masthead { 
   @include col(1/1);
-  padding-bottom:500px;
-}
-.logo {
-
-  @include max-screen(nth($res-collection, 4)*1px) {
-    margin:$spacing-xsmall $spacing-small;
-  }
-  a {
-    font-weight:$font-bold;
-    text-transform:uppercase;
-    text-decoration:none;
-  }
 }
 .navigation {
-  @include navigation-horizontal($a-padding: 0 25px 0 0);
-  margin:$spacing-xsmall 0;
+  @include navigation-horizontal($margin: 0 $spacing-xsmall 0 0);
+  margin:$spacing-medium 0;
+  font-weight:$font-bold;
+  h1 {
+    margin:0;
+  }
   h1, a {
     font-size:$font-small;
-  }
-  ul li {
+    text-decoration:none;
+    text-transform:uppercase;
     
   }
+  .inactive {
+    color:$tertiary;
+  }
 }
-.information {
+.subtitle {
   line-height:$spacing-large;
-  @include max-screen(nth($res-collection, 4)*1px) {
-    margin:0 $spacing-medium;
-  }
-}
-.subtitle, .address {
   margin:$spacing-small 0;
-}
-.address {
-  padding-left:$spacing-xsmall;
-  @include max-screen(nth($res-collection, 4)*1px) {
-    padding-left:0;
-  }
 }

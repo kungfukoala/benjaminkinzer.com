@@ -1,4 +1,4 @@
-@mixin navigation-horizontal($a-width: false, $a-padding: false) {
+@mixin navigation-horizontal($width: false, $margin: false) {
   ul {
     float:left;
     width:100%;
@@ -7,18 +7,18 @@
     list-style-type:none;
   }
   a {
-    float: left;
-    @if not $a-width {
+    @if not $width {
     } @else {
-      width: $a-width;
-    }
-    @if not $a-padding {
-    } @else {
-      padding:$a-padding;
+      width: $width;
     }
   }
   li {
-      display: inline;
+    float:left;
+    display: inline;
+    @if not $margin {
+    } @else {
+      margin:$margin;
+    }
   }
 }
 

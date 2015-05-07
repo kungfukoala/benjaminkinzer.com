@@ -34,20 +34,20 @@ $spacing-base:                        2.7em;
 $spacing-large:                       1.7em;
 $spacing-medium:                      $spacing-base/2;
 $spacing-small:                       $spacing-base/4;
-$spacing-xsmall:                      $spacing-base/6;
+$spacing-xsmall:                      $spacing-base/10;
 //
 //
 // COLORS
 //
 $black:                               rgb(0,0,0);
 $grey:                                rgb(120,120,120);
-$light-grey:                          rgb(225,225,225);
+$light-grey:                          rgb(200,200,200);
 $yellow:                              yellow;
 $blue:                                rgb(102,102,102);
 
 $primary:                             $black;
-$secondary:                           $grey;
-$tertiary:                            $blue;
+$secondary:                           $blue;
+$tertiary:                            $light-grey;
 
 $font-color:                          $primary;
 $heading-font-color:                  $font-color;
