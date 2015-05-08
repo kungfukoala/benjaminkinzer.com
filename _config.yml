@@ -22,6 +22,9 @@ sass:
   sass_dir:           /assets/_sass/
   compressed:         true
 
+# PERMALINKS
+permalink:            /:categories/:year/:title
+
 # FEATURE SETS
 show_related_posts:   false
 

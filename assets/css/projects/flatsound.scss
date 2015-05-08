@@ -1,0 +1,77 @@
+---
+---
+// PLUGINS
+@import           'bourbon/bourbon';
+@import           'jeet/index';
+@import           'base/mediaqueries';
+// MIXINS
+@import           'mixins/mixins';
+// EXTEND
+@import           'extend/placeholders';
+// SETTINGS
+@import           'settings/variables';
+
+.project-feature-image {
+  @include col(1/1);
+  @include background-image("/flatsound/flatsound-vinyl-interior@3x.png");
+  background-size:75%;
+  background-position:center;
+  height:800px;
+}
+.flatsound-vinyl-side-a {
+  @include background-image("/flatsound/flatsound-vinyl-side-a@3x.png");
+  background-size:75%;
+}
+.flatsound-vinyl-side-b {
+  @include background-image("/flatsound/flatsound-vinyl-side-b@3x.png");
+  background-size:155%;
+}
+.flatsound-vinyl-side-c {
+  @include background-image("/flatsound/flatsound-vinyl-side-c@3x.png");
+  background-size:155%;
+}
+.flatsound-vinyl-side-d {
+  @include background-image("/flatsound/flatsound-vinyl-side-d@3x.png");
+  background-size:75%;
+}
+.flatsound-vinyl-back {
+  @include col(1/1);
+  @include background-image("/flatsound/flatsound-vinyl-back@3x.png");
+  background-size:100%;
+  background-position:center;
+  height:1200px;
+}
+.flatsound-vinyl-interior {
+  @include col(1/1);
+  @include background-image("/flatsound/flatsound-vinyl-interior@3x.png");
+  background-size:100%;
+  background-position:center;
+  height:800px;
+}
+.flatsound-cd-cover {
+  @include col(1/1);
+  @include background-image("/flatsound/flatsound-cd-front@3x.png");
+  background-size:75%;
+  background-position:left;
+  height:800px;
+}
+.flatsound-cd-back {
+  @include col(1/2);
+  @include shift(1/2);
+  @include background-image("/flatsound/flatsound-cd-back@3x.png");
+  background-size:85%;
+  background-position:center;
+  height:600px;
+}
+.flatsound-cd-interior {
+  @include col(1/1);
+  @include background-image("/flatsound/flatsound-cd-interior-2@3x.png");
+  background-size:100%;
+  background-position:center;
+  height:600px;
+}
+.flatsound-vinyl-side-a, .flatsound-vinyl-side-b, .flatsound-vinyl-side-c, .flatsound-vinyl-side-d {
+  @include col(1/2, $cycle: 2);
+  height:550px;
+  background-position:center;
+}

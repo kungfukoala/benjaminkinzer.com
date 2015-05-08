@@ -567,7 +567,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  margin-bottom: 5.4em; }
 
 .post {
   float: left;
@@ -592,14 +593,72 @@ body {
   .footer:last-child {
     margin-right: 0%; }
 
-.masthead {
-  float: left;
-  clear: none;
+.project {
   width: 100%;
-  margin-left: 0%;
-  margin-right: 3%; }
-  .masthead:last-child {
-    margin-right: 0%; }
+  padding: 1.7em 0; }
+  .project .feature-image {
+    height: 700px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .project .project-title {
+    font-size: 5em;
+    margin: 0px;
+    text-transform: uppercase; }
+  .project .project-subtitle {
+    font-size: 1.0em;
+    margin: 0px; }
+  .project .project-header {
+    float: left;
+    clear: none;
+    width: 31.33333%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    .project .project-header:last-child {
+      margin-right: 0%; }
+  .project .project-content {
+    width: 100%; }
+  .project p {
+    font-size: 1.7em;
+    padding: 1.7em 25% 1.7em 0; }
+  .project .project-information {
+    float: left;
+    clear: none;
+    width: 22.75%;
+    margin-left: 0%;
+    margin-right: 3%;
+    margin-top: 5.4em;
+    padding: 0.675em 0 1.7em 0;
+    border-top: 1px dotted #c8c8c8; }
+    .project .project-information:last-child {
+      margin-right: 0%; }
+  .project .project-footer {
+    float: left;
+    clear: none;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    margin: 5.4em 0; }
+    .project .project-footer:last-child {
+      margin-right: 0%; }
+  .project .project-date {
+    color: #787878; }
+  .project .note {
+    float: left;
+    clear: none;
+    width: 5.58333%;
+    margin-left: 0%;
+    margin-right: 3%;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    margin-top: 10%;
+    padding: 1.35em 0;
+    background-color: white; }
+    .project .note:last-child {
+      margin-right: 0%; }
+
+.masthead {
+  width: 100%; }
 
 .navigation {
   margin: 1.35em 0;
@@ -711,12 +770,3 @@ body {
   background: url(/images/flatsound/flatsound-interior-personal.png) no-repeat 0px 0px;
   background-position: center;
   background-size: 100%; }
-
-.juju-wallpaper {
-  float: left;
-  clear: none;
-  width: 22.75%;
-  margin-left: 0%;
-  margin-right: 3%; }
-  .juju-wallpaper:last-child {
-    margin-right: 0%; }
