@@ -137,28 +137,29 @@
   width: 100%;
   margin-left: 0%;
   margin-right: 3%;
-  background: url(/images//flatsound/flatsound-vinyl-interior@3x.png) no-repeat 0px 0px;
-  background-size: 75%;
-  background-position: center;
-  height: 800px; }
+  background: url(/images//flatsound/flatsound-vinyl-i-clung-to-you.png) no-repeat 0px 0px;
+  background-position: left;
+  background-size: 125%;
+  height: 325px; }
   .project-feature-image:last-child {
     margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .project-feature-image {
+      background-position: center;
+      background-size: auto;
+      height: 850px; } }
 
 .flatsound-vinyl-side-a {
-  background: url(/images//flatsound/flatsound-vinyl-side-a@3x.png) no-repeat 0px 0px;
-  background-size: 75%; }
+  background: url(/images//flatsound/flatsound-vinyl-side-a.png) no-repeat 0px 0px; }
 
 .flatsound-vinyl-side-b {
-  background: url(/images//flatsound/flatsound-vinyl-side-b@3x.png) no-repeat 0px 0px;
-  background-size: 155%; }
+  background: url(/images//flatsound/flatsound-vinyl-side-b.png) no-repeat 0px 0px; }
 
 .flatsound-vinyl-side-c {
-  background: url(/images//flatsound/flatsound-vinyl-side-c@3x.png) no-repeat 0px 0px;
-  background-size: 155%; }
+  background: url(/images//flatsound/flatsound-vinyl-side-c.png) no-repeat 0px 0px; }
 
 .flatsound-vinyl-side-d {
-  background: url(/images//flatsound/flatsound-vinyl-side-d@3x.png) no-repeat 0px 0px;
-  background-size: 75%; }
+  background: url(/images//flatsound/flatsound-vinyl-side-d.png) no-repeat 0px 0px; }
 
 .flatsound-vinyl-back {
   float: left;
@@ -166,12 +167,16 @@
   width: 100%;
   margin-left: 0%;
   margin-right: 3%;
-  background: url(/images//flatsound/flatsound-vinyl-back@3x.png) no-repeat 0px 0px;
-  background-size: 100%;
-  background-position: center;
-  height: 1200px; }
+  background: url(/images//flatsound/flatsound-vinyl-back.png) no-repeat 0px 0px;
+  background-position: right;
+  background-size: 135%;
+  height: 350px; }
   .flatsound-vinyl-back:last-child {
     margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .flatsound-vinyl-back {
+      background-size: auto;
+      height: 1000px; } }
 
 .flatsound-vinyl-interior {
   float: left;
@@ -179,64 +184,54 @@
   width: 100%;
   margin-left: 0%;
   margin-right: 3%;
-  background: url(/images//flatsound/flatsound-vinyl-interior@3x.png) no-repeat 0px 0px;
-  background-size: 100%;
-  background-position: center;
-  height: 800px; }
+  background: url(/images//flatsound/flatsound-vinyl-interior.png) no-repeat 0px 0px;
+  background-position: right;
+  background-size: 185%;
+  height: 350px; }
   .flatsound-vinyl-interior:last-child {
     margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .flatsound-vinyl-interior {
+      background-size: auto;
+      height: 750px; } }
 
-.flatsound-cd-cover {
+.flatsound-vinyl-interior-small-screen {
   float: left;
   clear: none;
   width: 100%;
   margin-left: 0%;
   margin-right: 3%;
-  background: url(/images//flatsound/flatsound-cd-front@3x.png) no-repeat 0px 0px;
-  background-size: 75%;
+  background: url(/images//flatsound/flatsound-vinyl-interior.png) no-repeat 0px 0px;
   background-position: left;
-  height: 800px; }
-  .flatsound-cd-cover:last-child {
+  background-size: 185%;
+  height: 350px; }
+  .flatsound-vinyl-interior-small-screen:last-child {
     margin-right: 0%; }
-
-.flatsound-cd-back {
-  float: left;
-  clear: none;
-  width: 48.5%;
-  margin-left: 0%;
-  margin-right: 3%;
-  position: relative;
-  left: 51.5%;
-  background: url(/images//flatsound/flatsound-cd-back@3x.png) no-repeat 0px 0px;
-  background-size: 85%;
-  background-position: center;
-  height: 600px; }
-  .flatsound-cd-back:last-child {
-    margin-right: 0%; }
-
-.flatsound-cd-interior {
-  float: left;
-  clear: none;
-  width: 100%;
-  margin-left: 0%;
-  margin-right: 3%;
-  background: url(/images//flatsound/flatsound-cd-interior-2@3x.png) no-repeat 0px 0px;
-  background-size: 100%;
-  background-position: center;
-  height: 600px; }
-  .flatsound-cd-interior:last-child {
-    margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .flatsound-vinyl-interior-small-screen {
+      display: none; } }
 
 .flatsound-vinyl-side-a, .flatsound-vinyl-side-b, .flatsound-vinyl-side-c, .flatsound-vinyl-side-d {
   float: left;
   clear: none;
-  width: 48.5%;
+  width: 100%;
   margin-left: 0%;
   margin-right: 3%;
-  height: 550px;
+  height: 300px;
+  margin-bottom: 1.35em;
   background-position: center; }
-  .flatsound-vinyl-side-a:nth-of-type(2n), .flatsound-vinyl-side-b:nth-of-type(2n), .flatsound-vinyl-side-c:nth-of-type(2n), .flatsound-vinyl-side-d:nth-of-type(2n) {
-    margin-right: 0%;
-    float: right; }
-  .flatsound-vinyl-side-a:nth-of-type(2n + 1), .flatsound-vinyl-side-b:nth-of-type(2n + 1), .flatsound-vinyl-side-c:nth-of-type(2n + 1), .flatsound-vinyl-side-d:nth-of-type(2n + 1) {
-    clear: both; }
+  .flatsound-vinyl-side-a:last-child, .flatsound-vinyl-side-b:last-child, .flatsound-vinyl-side-c:last-child, .flatsound-vinyl-side-d:last-child {
+    margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .flatsound-vinyl-side-a, .flatsound-vinyl-side-b, .flatsound-vinyl-side-c, .flatsound-vinyl-side-d {
+      float: left;
+      clear: none;
+      width: 48.5%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 550px; }
+      .flatsound-vinyl-side-a:nth-of-type(2n), .flatsound-vinyl-side-b:nth-of-type(2n), .flatsound-vinyl-side-c:nth-of-type(2n), .flatsound-vinyl-side-d:nth-of-type(2n) {
+        margin-right: 0%;
+        float: right; }
+      .flatsound-vinyl-side-a:nth-of-type(2n + 1), .flatsound-vinyl-side-b:nth-of-type(2n + 1), .flatsound-vinyl-side-c:nth-of-type(2n + 1), .flatsound-vinyl-side-d:nth-of-type(2n + 1) {
+        clear: both; } }
