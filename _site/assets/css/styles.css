@@ -605,6 +605,9 @@ body {
     font-size: 5em;
     margin: 0px;
     text-transform: uppercase; }
+    @media screen and (max-width: 480px) {
+      .project .project-title {
+        font-size: 2.5em; } }
   .project .project-subtitle {
     font-size: 1.0em;
     margin: 0px; }
@@ -621,6 +624,10 @@ body {
   .project p {
     font-size: 1.7em;
     padding: 1.7em 25% 1.7em 0; }
+    @media screen and (max-width: 480px) {
+      .project p {
+        font-size: 1.2em;
+        padding: 1.35em 0.675em 1.35em 0.675em; } }
   .project .project-information {
     float: left;
     clear: none;

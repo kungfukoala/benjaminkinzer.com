@@ -11,6 +11,10 @@
     font-size:5em;
     margin:0px;
     text-transform:uppercase;
+    // iPhone 6 Plus down, and iPhone 4 Lanscape down
+    @include max-screen(nth($res-collection, 2)*1px) {
+      font-size:2.5em;
+    }
   }
   .project-subtitle {
     font-size:1.0em;
@@ -25,6 +29,11 @@
   p {
     font-size:$font-large;
     padding:$spacing-large 25% $spacing-large 0;
+    // iPhone 6 Plus down, and iPhone 4 Lanscape down
+    @include max-screen(nth($res-collection, 2)*1px) {
+      font-size:$font-medium;
+      padding:$spacing-medium $spacing-small $spacing-medium $spacing-small;
+    }
   }
   .project-information {
     @include col(2/8);
