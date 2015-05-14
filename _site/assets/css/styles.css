@@ -603,6 +603,7 @@ body {
     background-position: center; }
   .project .project-title {
     font-size: 5em;
+    line-height: 0.8em;
     margin: 0px;
     text-transform: uppercase; }
     @media screen and (max-width: 480px) {
