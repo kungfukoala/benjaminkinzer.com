@@ -56,7 +56,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://benjaminkinzer.com/project/2011/21st-amendment-packaging</loc>
+    <loc>http://benjaminkinzer.com/project/2011/21st-Amendment-Packaging</loc>
     <lastmod>2011-05-09T05:54:10-07:00</lastmod>
     <priority>0.8</priority>
   </url>
@@ -67,19 +67,19 @@
   </url>
   <url>
     <loc>http://benjaminkinzer.com/</loc>
-    <lastmod>2015-05-14T21:19:22-07:00</lastmod>
+    <lastmod>2015-05-15T15:14:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://benjaminkinzer.com/profile/</loc>
-    <lastmod>2015-05-14T21:19:22-07:00</lastmod>
+    <lastmod>2015-05-15T15:14:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://benjaminkinzer.com/story-behind-the-site/</loc>
-    <lastmod>2015-05-14T21:19:22-07:00</lastmod>
+    <lastmod>2015-05-15T15:14:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
