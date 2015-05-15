@@ -10,7 +10,7 @@ tags:             packaging
 music:            If It Wasn't For You by Handsome Boy Modeling School
 typography:       Dirty Headline, FF Dirty One, FF Dirty Seven, FF Dirty Six, Hand Lettering
 photography:      Steve Tague stevetague.com
-illustraion:      Joe Wilson joe-wilson.com
+illustration:     Joe Wilson joe-wilson.com
 for:              21st Amendment Brewery
 agency:           TBD Agency tbdagency.com
 ---

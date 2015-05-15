@@ -18,14 +18,15 @@
 @import           'base/colors';
 @import           'base/forms';
 // LAYOUT
-@import           'layouts/default.scss';
-@import           'layouts/project.scss';
+@import           'layouts/default';
+@import           'layouts/project';
 // MODULES
-@import           'modules/masthead.scss';
-@import           'modules/footer.scss';
-@import           'modules/posts.scss';
-@import           'modules/tags.scss';
+@import           'modules/masthead';
+@import           'modules/footer';
+@import           'modules/posts';
+@import           'modules/tags';
+@import           'modules/video-responsive';
 // PAGES
-@import           'layouts/work.scss';
+@import           'layouts/work';
 // OH SHIT
 @import           'ohshit';
