@@ -8,8 +8,9 @@ baseurl:              "" # subpath if necessary, e.g. /blog/
 url:                  "http://benjaminkinzer.com" # base url http://url.com
 
 # TAGGING
-tag_page_layout:      tags
+tag_page_layout:      tags_page
 tag_page_dir:         tag
+tag_permalink_style:  pretty
 
 # GOOGLE ANALYTICS
 google_analytics:     UA-857352-1

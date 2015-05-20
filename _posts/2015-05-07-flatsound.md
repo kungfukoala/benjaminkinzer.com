@@ -3,7 +3,7 @@ layout:           project
 title:            "Flatsound"
 subtitle:         "12 Inch Vinyl"
 date:             2015-10-07 12:54:10
-thumbnail:        flatsound/flatsound-vinyl-i-clung-to-you.png
+thumbnail:        flatsound/flatsound-vinyl-thumbnail.png
 css:              /projects/2015-flatsound.css
 categories:       project
 tags:             music album photography

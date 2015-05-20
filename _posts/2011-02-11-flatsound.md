@@ -3,7 +3,7 @@ layout:           project
 title:            "Flatsound"
 subtitle:         "CD"
 date:             2011-02-11 12:54:10
-thumbnail:        flatsound/flatsound-vinyl-i-clung-to-you.png
+thumbnail:        flatsound/flatsound-cd-thumbnail.png
 css:              /projects/2011-flatsound.css
 categories:       project
 tags:             music album photography
