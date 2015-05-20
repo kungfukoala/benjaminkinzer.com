@@ -1,7 +1,4 @@
 main_navigation:
-  work:
-    url:  "/work/"
-    text: "Work"
   profile:
     url:  "/profile/"
     text: "Profile"

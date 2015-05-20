@@ -1,5 +1,6 @@
 .masthead { 
   width:100%;
+  margin-bottom:$spacing-xlarge;
 }
 .navigation {
   @include navigation-horizontal($margin: 0 $spacing-xsmall 0 0);
