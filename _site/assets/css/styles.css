@@ -523,6 +523,11 @@ a, a:visited {
 a:hover {
   border-top: 1px solid #c8c8c8; }
 
+ul {
+  padding: 0; }
+  ul li {
+    list-style-type: none; }
+
 .light-grey {
   color: #c8c8c8; }
 
@@ -781,6 +786,9 @@ body {
 .profile {
   background-color: black;
   color: white; }
+  .profile a {
+    color: white;
+    text-decoration: none; }
   .profile .page-content {
     float: left;
     clear: none;
