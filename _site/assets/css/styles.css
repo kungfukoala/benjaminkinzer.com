@@ -664,6 +664,9 @@ body {
     .project .note:last-child {
       margin-right: 0%; }
 
+.page {
+  margin-top: 5em; }
+
 .masthead {
   width: 100%; }
 
@@ -763,7 +766,7 @@ body {
   padding: 0.4em 0.7em;
   color: #c8c8c8;
   font-family: "franklin-gothic", helvetica;
-  background-color: #666666;
+  background-color: white;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -786,6 +789,56 @@ body {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.profile {
+  background-color: black;
+  color: white; }
+  .profile .page-content {
+    float: left;
+    clear: none;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: static;
+    left: 0; }
+    .profile .page-content:last-child {
+      margin-right: 0%; }
+    @media screen and (min-width: 480px) {
+      .profile .page-content {
+        float: left;
+        clear: none;
+        width: 61.375%;
+        margin-left: 0%;
+        margin-right: 3%;
+        position: relative;
+        left: -38.625%;
+        margin-bottom: 5.4em; }
+        .profile .page-content:last-child {
+          margin-right: 0%; } }
+  .profile .side-note {
+    float: left;
+    clear: none;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: static;
+    left: 0; }
+    .profile .side-note:last-child {
+      margin-right: 0%; }
+    @media screen and (min-width: 480px) {
+      .profile .side-note {
+        float: left;
+        clear: none;
+        width: 35.625%;
+        margin-left: 0%;
+        margin-right: 3%;
+        position: relative;
+        left: 64.375%; }
+        .profile .side-note:last-child {
+          margin-right: 0%; } }
+
+p {
+  font-size: 2em; }
 
 .flatsound-vinyl {
   background: url(/images/flatsound/flatsound-interior-personal.png) no-repeat 0px 0px;

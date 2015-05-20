@@ -1,16 +1,31 @@
 ---
-layout: page
-title: Profile
-permalink: /profile/
+layout:         page
+title:          Profile
+permalink:      /profile/
+profile-image:  assets/images/BK_Profile.png
 ---
 
-This is my theme for kickstarting my projects. I use Jekyll for wireframe and designing in the browser. Created by Benjamin Kinzer.
+<div class="who">
+<p>We are born from creation and there is no escaping the desire to create. In holographic theory we are asked to look at the whole and not the individual particles. My approach to design is similar in that I look for the sum of the indivdual moving parts. I'm not a surgeon or a psychologist or even an anthropologist. I choose to work with a variety of people, ask questions and listen well. Instead of dissecting a project, you take a moment to look at it from different perspectives. This provides a map for what we are creating together.</p>
 
-You can find the source code here [Github repository](https://github.com/kungfukoala/_underscore_jekyll)
+<p>Although it appears that I'm a magician at times or a technical expert, that is merely the fluff. I'm taking every story, word, number, experience and finding the different perspectives that will eventually tell the whole story. To reach these points of wholeness we cannot merely sit idle. Iterative design allows us understand our people and make key refinements over time.</p>
+</div>
 
-License
-([MIT](http://opensource.org/licenses/MIT)).
-
-For more information visit [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<div class="people">
+<strong>Clients I've had the pleasure to collaborate with</strong>
+The Ale Apothecary 
+- TBD Agency
+- 21st Amendment Brewery
+- Swiss Water Decaf Process
+- American Licorice Company
+- JUJU
+- Adobe
+- Crux Fermentation Project
+- Deschutes Brewery
+- Oregon Chai
+- BrandNavigation
+- Park Hyatt
+- TEDxBend
+- High Desert Journal
+- Caldera
+</div>
