@@ -654,7 +654,8 @@ body {
   margin-top: 5em; }
 
 .masthead {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 5.4em; }
 
 .navigation {
   margin: 1.35em 0;
@@ -683,6 +684,7 @@ body {
   margin: 0.675em 0; }
 
 .footer {
+  margin-top: 5.4em;
   color: white;
   background-color: black; }
   .footer a {
@@ -797,8 +799,7 @@ body {
         margin-left: 0%;
         margin-right: 3%;
         position: relative;
-        left: -38.625%;
-        margin-bottom: 5.4em; }
+        left: -38.625%; }
         .profile .page-content:last-child {
           margin-right: 0%; } }
   .profile .side-note {
