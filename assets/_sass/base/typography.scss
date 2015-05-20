@@ -4,3 +4,9 @@ a, a:visited {
 a:hover {
   border-top:1px solid $tertiary;
 }
+ul {
+  padding:0;
+  li {
+    list-style-type:none;
+  }
+}
