@@ -3,7 +3,7 @@ layout:           project
 title:            "Natural Vines"
 subtitle:         "Campaign"
 date:             2012-05-09 12:54:10
-thumbnail:        naturalvines/tedxbend-bending-poster-1@3x.png
+thumbnail:        naturalvines/naturalvines-print-thumbnail.png
 css:              /projects/2012-naturalvines.css
 categories:       project
 tags:             advertising print collateral 

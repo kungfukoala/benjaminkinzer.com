@@ -570,20 +570,6 @@ body {
   padding-right: 0;
   margin-bottom: 5.4em; }
 
-.post {
-  float: left;
-  clear: none;
-  width: 28.0%;
-  margin-left: 0%;
-  margin-right: 8%;
-  margin-bottom: 8em;
-  height: 400px; }
-  .post:nth-of-type(3n) {
-    margin-right: 0%;
-    float: right; }
-  .post:nth-of-type(3n + 1) {
-    clear: both; }
-
 .footer {
   float: left;
   clear: none;
@@ -840,7 +826,16 @@ body {
 p {
   font-size: 2em; }
 
-.flatsound-vinyl {
-  background: url(/images/flatsound/flatsound-interior-personal.png) no-repeat 0px 0px;
-  background-position: center;
-  background-size: 100%; }
+.home .post {
+  float: left;
+  clear: none;
+  width: 33.16667%;
+  margin-left: 0%;
+  margin-right: 0.25%;
+  margin-bottom: 0.25em;
+  height: 400px; }
+  .home .post:nth-of-type(3n) {
+    margin-right: 0%;
+    float: right; }
+  .home .post:nth-of-type(3n + 1) {
+    clear: both; }

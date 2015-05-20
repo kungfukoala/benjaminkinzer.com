@@ -9,11 +9,7 @@ body {
   @include center(1440px);
   margin-bottom:$spacing-xlarge;
 }
-.post {
-  @include col(1/3, $cycle: 3, $gutter: 8);
-  margin-bottom:8em;
-  height:400px;
-}
+
 .footer {
   @include col(1/1);
 }
