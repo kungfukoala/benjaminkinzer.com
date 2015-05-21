@@ -11,31 +11,12 @@ music:
 repo:             https://github.com/kungfukoala/kungfukoala.github.io
 css:              
 ---
-<div class="introduction">
-  The snowball effect.
-</div>
-
 ##The project
-A redesign of [benjaminkinzer.com] from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. Since we're dealing with **truths**, I have no idea what my method is for design projects. Hence the unknown and why I'm excited to begin working on this project. The redesign is providing me with an opportunity to document my methods, educate others on the role of a designer/art director, and maybe inspire someone along the way. 
+A redesign of [benjaminkinzer.com] from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. I will also be using this opportunity to design within the web browser and prototype features. This is also my opportunity to challenge my skillset in the areas of Javascript, Ruby and Node. 
 
-During this redesign we will be exploring a new approach to websites and web applications by designing within the browser. Eliminating the step of wire framing and prototyping in applications such as Photoshop or Sketch. This is why the site currently appears to have been made in 1989: [World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html).
+What's design in the browser? We skip over the wireframing and Photoshop files. Eliminating the need to maintain dozens of Photoshop files for various screen sizes. We have a design that is interactive and we can test screen sizes early on to make sure the design works for all our viewers. 
 
-
-
-
-
-1989 is when the first website was created and served to the [World Wide Web](http://info.cern.ch/). But why does [benjaminkinzer.com] resemble the first website? I need a new website  was ten years after I was born and was the year the first website Welcome to the redesign of [benjaminkinzer.com] and I've decided to include everyone in the design process.
-
-
-
-This all started with "Designing in the Browser" and at some point morphed into a project to uncover my own methods for designing. Instead of developing the methods behind the giant curtain; I decided to expose my process of uncovering my own methods to the world. I've found myself more productive, inspired and eager to refine my ideas once they are shared. But I feel like I'm exposing you to the (un)Fashionable side of myself, which reminds me of a good quote:
-
-"It's like your going through my underwear drawer" - Bill Chiaravalle, Creative Director of BrandNavigation in reference to me connecting to his computer via the internal network. Good memories.
-
-Your welcome to follow along in the process:
-
-- [Unknown Truths]
-- [Fuel for the Fire]
+You can follow the project on [Github](https://github.com/kungfukoala/kungfukoala.github.io)
 
 ###Draft 0.1 - My assumed Methods
 
