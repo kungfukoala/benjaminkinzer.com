@@ -1,0 +1,7 @@
+@function contrast-text-color($color, $lighter-color:#FFFFFF, $darker-color:#000000) {
+  @if (lightness($color) > 50) {
+    @return $darker-color; // Lighter backgorund, return dark color
+  } @else {
+    @return $lighter-color; // Darker background, return light color
+  }
+}

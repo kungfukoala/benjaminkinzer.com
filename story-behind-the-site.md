@@ -11,6 +11,8 @@ music:
 repo:             https://github.com/kungfukoala/kungfukoala.github.io
 css:              
 ---
+Site Version: 1.1
+
 ##The project
 A redesign of [benjaminkinzer.com] from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. I will also be using this opportunity to design within the web browser and prototype features. This is also my opportunity to challenge my skillset in the areas of Javascript, Ruby and Node. 
 
