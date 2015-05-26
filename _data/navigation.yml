@@ -2,6 +2,9 @@ main_navigation:
   profile:
     url:  "/profile/"
     text: "Profile"
+  love:
+    url:  "/a-little-love/"
+    text: "&#9829;"
   story:
     url:  "/story-behind-the-site/"
-    text: "Story Behind the Site"  
+    text: "Story Behind the Site" 

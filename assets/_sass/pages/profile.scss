@@ -1,5 +1,14 @@
 .profile {
-  p {
+  .footer {
+    color:contrast-text-color($primary);
+    .button {
+      margin-top:$spacing-medium;
+      background-color:$primary;
+      border:2px solid $secondary;
+      color:contrast-text-color($primary);
+    }
+  }
+  .who p {
     font-size:2em;
   }
   a {

@@ -9,11 +9,17 @@
   }
   .post-header {
     position:absolute;
-    top:10px;
+    margin:0px;
+    right:0px;
+    //top:10px;
     padding-left:$spacing-large;
   }
   .post-title {
-    font-size:$font-medium;
-    font-weight:100;
+    margin:0px;
+    padding:6px 10px;
+    font-size:$font-xsmall;
+    text-transform:uppercase;
+    color:$secondary;
+    background-color:$primary;
   }
 }

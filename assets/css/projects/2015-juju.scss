@@ -1,0 +1,48 @@
+---
+---
+// PLUGINS
+@import           'bourbon/bourbon';
+@import           'jeet/index';
+@import           'base/mediaqueries';
+// MIXINS
+@import           'mixins/mixins';
+// EXTEND
+@import           'extend/placeholders';
+// SETTINGS
+@import           'settings/variables';
+
+$project-folder:  'juju';
+$client:          'juju';
+
+.project-feature-image {
+  @include col(1/1);
+  @include background-image("#{$project-folder}/#{$client}-icon@3x.png");
+  background-position:bottom;
+  background-size:108%;
+  height:225px;
+  // Screen sizes larger than mobile
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-position:center;
+    background-size:auto;
+    height:650px;
+  }
+}
+%grid {
+  @include col(1/1);
+  height:205px;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    @include col(1/2, $cycle: 2);
+    height:325px;
+  }
+}
+.juju-temp {
+  @extend .project-feature-image;
+  height:205px;
+  @include background-image("#{$project-folder}/#{$client}-temp.png");
+  background-position:center;
+  background-size:108%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:98%;
+    height:1000px;
+  }
+}

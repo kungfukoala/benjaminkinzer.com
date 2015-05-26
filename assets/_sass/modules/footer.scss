@@ -1,10 +1,6 @@
 .footer {
   margin-top:$spacing-xlarge;
-  color:white;
-  background-color:$primary;
-  a {
-    color:white;
-  }
+  color:contrast-text-color($secondary);
   .contact, .newsletter, .legal {
     @include col(1/1);
     padding:$spacing-medium 0;
@@ -26,8 +22,8 @@
     }
     .button {
       margin-top:$spacing-medium;
-      background-color:$primary;
-      border:2px solid white;
+      background-color:$secondary;
+      border:2px solid $primary;
     }
   }
   .contact {
