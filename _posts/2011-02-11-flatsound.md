@@ -20,6 +20,9 @@ credits:
   client:
     descriptor: "For"
     name:       "Mitch Welling of Flatsound"
+  role:
+    descriptor: "Role"
+    name:       "Design, Photography"
 ---
 [Flatsound](http://www.flatsound.org/) is a poet, songwriter, photographer and apparently a cry baby. Mitch of Flatsound contacted me in 2011 about using a few of my Polaroid photos of Sparks Lake, Oregon. Of course I agree, and also offered to design the album *I Clung to You Hoping We'd Both Drown*. The photographs capture the balance between haunted and fond memories the album weaves between. The typography was hand drawn to appear like a journal of personal notes, similar to how many songs are poems reflection on the past. 
 

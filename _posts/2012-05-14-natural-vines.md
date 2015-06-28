@@ -24,8 +24,8 @@ credits:
   agency:
     descriptor: "Agency"
     name:       "TBD Advertising"
-  services:
-    descriptor: "Services"
+  role:
+    descriptor: "Role"
     name:       "Concept, Art Direction, Design"
 ---
 American Licorice Company, famous for Red Vines, was looking for help in promoting Natural Vines. I've had many memories of Red Vines in the movie theaters as a child and when we started thinking about how to promote Natural Vines, it only seemed natural to use outdoor cinema as the avenue for sharing Natural Vines. We created a short film that would show before each movies at outdoor cinema's in Seattle, Portland, San Francisco, Austin and Salt Lake City. Along with some delicous treats they were also provided with an activity guide for enjoying your summer.
