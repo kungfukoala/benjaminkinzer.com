@@ -8,12 +8,25 @@ css:              /projects/2012-naturalvines.css
 categories:       project
 tags:             advertising print collateral 
 music:            Origami by Fredrik
-typography:       YWFT Welna, Hand Lettering
-photography:      
-director:         Wes Coughlin wildlookout.com
-illustration:     Katie Daisy katiedaisy.com
-for:              American Licorice Company
-agency:           TBD Agency tbdagency.com
+credits:
+  typography:
+    descriptor: "Typography"
+    name:       "YWFT Welna, Hand Lettering"
+  director:
+    descriptor: "Director"
+    name:       "Wes Coughlin"
+  illustration:
+    descriptor: "Illustration"
+    name:       "Katie Daisy"
+  for:
+    descriptor: "For"
+    name:       "American Licorice Company"
+  agency:
+    descriptor: "Agency"
+    name:       "TBD Advertising"
+  role:
+    descriptor: "Role"
+    name:       "Concept, Art Direction, Design"
 ---
 American Licorice Company, famous for Red Vines, was looking for help in promoting Natural Vines. I've had many memories of Red Vines in the movie theaters as a child and when we started thinking about how to promote Natural Vines, it only seemed natural to use outdoor cinema as the avenue for sharing Natural Vines. We created a short film that would show before each movies at outdoor cinema's in Seattle, Portland, San Francisco, Austin and Salt Lake City. Along with some delicous treats they were also provided with an activity guide for enjoying your summer.
 

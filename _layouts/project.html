@@ -15,39 +15,20 @@ layout: default
   </article>
   <footer class="project-footer">
     <aside class="project-information">
-      {% if page.agency %}
-        <span class="project-meta"><strong>Agency</strong> {{ page.agency }}</span><br>
-      {% endif %}
-      {% if page.for %}
-        <span class="project-meta"><strong>For</strong> {{ page.for }}</span><br>
-      {% endif %}
-      {% if page.typography %}
-        <span class="project-meta"><strong>Typography</strong> {{ page.typography }}</span><br>
-      {% endif %}
-      {% if page.photography %}
-        <span class="project-meta"><strong>Photography</strong> {{ page.photography }}</span><br>
-      {% endif %}
-      {% if page.director %}
-        <span class="project-meta"><strong>Director</strong> {{ page.director }}</span><br>
-      {% endif %}
-      {% if page.illustrator %}
-        <span class="project-meta"><strong>Illustrator</strong> {{ page.illustrator }}</span><br>
-      {% endif %}
-      {% if page.agency %}
-        <span class="project-meta"><strong>Agency</strong> {{ page.agency }}</span><br>
-      {% endif %}
+      <ul>
+      {% for credit_hash in page.credits %}
+      {% assign credit = credit_hash[1] %}
+        <li><strong>{{ credit.descriptor }}</strong><br> {{ credit.name }}</li>
+      {% endfor %}
+        <li><strong>Project Date</strong><br> {{ page.date | date: "%b %Y" }}</li>
+        {% if page.tags %}
+        <li><strong>Filed under</strong><br> {{ page.tags | join: ' ' }}</li>
+        {% endif %}
+      </ul>
       {% if site.show_sharing %}
         {% include sharing.html %}
       {% endif %}
-      <strong>Filed under</strong>
-      {% if page.tags %}
-      <span class="project-tags">{{ page.tags | join: ' ' }}</span>
-      {% endif %}
     </aside>
-    <span class="project-date"><strong>Published</strong> {{ page.date | date: "%b %-d, %Y" }}</span><br>
-    {% if page.update_date %}
-      <span class="project-date"><strong>Updated</strong> {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
-    {% endif %}
   </footer>
   
   {% if site.show_related_posts %}

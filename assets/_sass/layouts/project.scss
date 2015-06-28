@@ -36,11 +36,23 @@
       padding:$spacing-medium $spacing-small $spacing-medium $spacing-small;
     }
   }
-  .project-information {
-    @include col(2/8);
+  .project-footer {
+    @include col(1/1);
     margin-top:$spacing-xlarge;
     padding:$spacing-small 0 $spacing-large 0;
-    border-top:1px dotted $light-grey;
+    border-top:1px solid $light-grey;
+    text-align:center;
+    strong {
+      font-size:$font-xsmall;
+      text-transform:uppercase;
+      letter-spacing:$letter-spacing-base;
+    }
+    li {
+      padding-bottom:$spacing-small;
+    }
+    @include min-screen(nth($res-collection, 2)*1px) {
+      @include col(4/8);
+    }
   }
   .project-footer {
     @include col(1/1);
