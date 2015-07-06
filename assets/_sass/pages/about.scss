@@ -1,0 +1,36 @@
+.about {
+  .footer {
+    color:contrast-text-color($primary);
+    .button {
+      margin-top:$spacing-medium;
+      background-color:$primary;
+      border:2px solid $secondary;
+      color:contrast-text-color($primary);
+    }
+  }
+  .who p {
+    font-size:2em;
+  }
+  a {
+    color:white;
+    text-decoration:none;
+  }
+  background-color:$primary;
+  color:$secondary;
+  .page-content {
+    @include col(1/1);
+    @include unshift();
+    @include min-screen(nth($res-collection, 2)*1px) {
+      @include col(5/8);
+      @include shift(-3/8);
+    }
+  }
+  .side-note {
+    @include col(1/1);
+    @include unshift();
+    @include min-screen(nth($res-collection, 2)*1px) {
+      @include col(3/8);
+      @include shift(5/8);
+    }
+  }
+}
