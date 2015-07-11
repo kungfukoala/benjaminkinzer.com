@@ -1,6 +1,9 @@
-.masthead { 
+.header {
+  position:fixed;
+  z-index:1000;
+  top:0; 
   width:100%;
-  margin-bottom:$spacing-xlarge;
+  height:100px;
 }
 .navigation {
   @include navigation-horizontal($margin: 0 $spacing-xsmall 0 0);

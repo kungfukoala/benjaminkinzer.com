@@ -715,9 +715,12 @@ body {
 .page {
   margin-top: 5em; }
 
-.masthead {
+.header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
   width: 100%;
-  margin-bottom: 5.4em; }
+  height: 100px; }
 
 .navigation {
   margin: 1.35em 0;
