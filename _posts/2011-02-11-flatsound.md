@@ -1,7 +1,7 @@
 ---
 layout:           project
 title:            "Flatsound"
-subtitle:         "CD"
+subtitle:         "Album"
 date:             2011-02-11 12:54:10
 thumbnail:        flatsound/flatsound-cd-thumbnail.png
 css:              /projects/2011-flatsound.css

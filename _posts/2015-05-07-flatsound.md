@@ -1,7 +1,7 @@
 ---
 layout:           project
 title:            "Flatsound"
-subtitle:         "12 Inch Vinyl"
+subtitle:         "Album"
 date:             2015-10-07 12:54:10
 thumbnail:        flatsound/flatsound-vinyl-thumbnail.png
 css:              /projects/2015-flatsound.css

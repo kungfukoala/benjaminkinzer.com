@@ -1,7 +1,7 @@
 ---
 layout:           project
 title:            "21st Amendment Brewery"
-subtitle:         "Mainline Packaging"
+subtitle:         "Packaging"
 date:             2011-05-09 12:54:10
 thumbnail:        21stamendment/21a-mainline-thumbnail.png
 css:              /projects/2011-21stamendment.css

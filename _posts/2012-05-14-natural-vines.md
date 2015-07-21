@@ -3,7 +3,7 @@ layout:           project
 title:            "Natural Vines"
 subtitle:         "Campaign"
 date:             2012-05-09 12:54:10
-thumbnail:        naturalvines/naturalvines-print-thumbnail.png
+thumbnail:        naturalvines/naturalvines-thumbnail.png
 css:              /projects/2012-naturalvines.css
 categories:       project
 tags:             advertising print collateral 
