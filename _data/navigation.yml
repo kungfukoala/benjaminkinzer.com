@@ -5,6 +5,6 @@ main_navigation:
   love:
     url:  "/a-little-love/"
     text: "&#9829;"
-  story:
-    url:  "/story-behind-the-site/"
-    text: "Story Behind the Site" 
+  journal:
+    url:  "/journal/"
+    text: "Journal"
