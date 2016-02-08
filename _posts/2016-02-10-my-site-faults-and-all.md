@@ -17,28 +17,28 @@ Currently the site is a **user experience** nightmare for my audience and for my
 
 - - -
 
-## Home
+### Home
 
 ![Benjamin Kinzer Homepage]({{ base.url }}/images/benjaminkinzer/v1-1/bk-home.jpg)
 
 For me the home page works well, it's not ideal. But the feedback I have received is positive. The user has a few jumping points, but the work is there before them to interact with. I think in the future it will be worth considering a redesign, but for now it works.
 
-### For Consideration
+#### For Consideration
 - Journal Entries on Home
 
 - - -
 
-## Projects
+### Projects
 
 This page does not exist, so people must click on BENJAMIN KINZER to reach the project thumbnails. This has caused a lot of confusion in navigating between projects. The user also must scroll to the top or use the back button to reach other projects.
 
-### For Consideration
+#### For Consideration
 - Add **Projects** to navigation
 - ADD MORE WORK!
 
 - - -
 
-## Project Detail
+### Project Detail
 
 ![Benjamin Kinzer Project Detail]({{ base.url }}/images/benjaminkinzer/v1-1/bk-project-detail.jpg)
 
@@ -78,26 +78,26 @@ As for the user, well there is a lot of confusion and extra work to navigate bet
 
 Apparently all my project pages have a 100% bounce rate. Should I laugh or cry? If I were viewing my site I would be frustrated that I had to click the back button or scroll to the top to see click on BENJAMIN KINZER to view other work. What if they landed on a specific project page, that rules out the browser back button.
 
-#### For Consideration
+##### For Consideration
 - Previous and Next Project Arrows with Thumbnails
 - Possibly having related projects in the footer
 - Some kind of menu that allows them to jump to other projects within the site
 
 - - -
 
-## Profile
+### Profile
 
 ![Benjamin Kinzer Profile]({{ base.url }}/images/benjaminkinzer/v1-1/bk-profile.jpg)
 
 So this page from a user stand point causes a lot of confusion. I've actually used the copy on the page in conversation and it often leads to blank stares. Not sure that is helping me out very much.
 
-#### For Consideration
+##### For Consideration
 - Write something that actually makes sense to the reader
 - Develop a more friendly concept that conveys the BK story
 
 - - -
 
-## Love
+### Love
 
 ![Benjamin Kinzer Love]({{ base.url }}/images/benjaminkinzer/v1-1/bk-love.jpg)
 
@@ -106,31 +106,30 @@ This page is one of my favorites, mainly because it's people talking about how g
 The heart icon also appears differently on mobile screens since I'm using an ACSII character. Which means it turns into the default heart emoticon on different mobile operating systems:
 [Image Heart Icon]
 
-#### For Consideration
+##### For Consideration
 - Swap out with a SVG icon
 - Use words instead of icon
 
 - - -
 
-## Story Behind This Site
+### Story Behind This Site
 
 ![Benjamin Kinzer Story Behind This Site]({{ base.url }}/images/benjaminkinzer/v1-1/bk-story-behind-site.jpg)
 
 I absolutely hate this page. It really should not live within the top level navigation. My thought was to document the process of this site and rapid prototyping with this page, but I think that can be better achieved with a Journal page, like the one you are viewing now.
 
-#### For Consideration
+##### For Consideration
 - Swap out with a SVG icon
 - Use words instead of icon
 
 - - -
 
-## Contact
+### Contact
 People haven't had a difficult time finding how to contact me, so that is a success having the information at the bottom of the site. However I do believe I could make it easier for people to find a way to contact me, besides on the profile or bottom of the page.
 
 - - -
 
-## Navigation
-[Image Navigation]
+### Navigation
 I had the intention of making the Navigation work more like breadcrumbs. I'm still excited about this idea and will be prototyping this in the next phase.
 
 - - -
