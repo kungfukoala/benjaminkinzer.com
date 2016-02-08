@@ -34,10 +34,11 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
   {% if site.show_sharing %}
     {% include sharing.html %}
   {% endif %}
-  
+
   {% if site.disqus_shortname %}
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -66,5 +67,3 @@ layout: default
   {% endif %}
 
 </div>
-
-
