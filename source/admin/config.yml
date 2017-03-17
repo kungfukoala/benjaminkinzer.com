@@ -3,10 +3,10 @@ backend:
   repo: kungfukoala/benjaminkinzer.com # Path to your Github repository
   branch: master # Branch to update
 
-  publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
-  media_folder: "source/images/uploads" # Media files will be stored in the repo under static/images/uploads
-  public_folder: "/images/uploads"
+media_folder: "source/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads"
 
 collections:
 - name: "journal" # Used in routes, e.g. /admin/collections/blog
@@ -20,8 +20,6 @@ collections:
     - {label: "Publish Date", name: "date", widget: "datetime"}
     - {label: "Tags", name: "tags", widget: "list"}
     - {label: "Body", name: "body", widget: "markdown"}
-
-collections:
 - name: "library" # Used in routes, e.g. /admin/collections/blog
   label: "Library" # Used in the UI
   folder: "library" # The path to the folder where the documents are stored
@@ -33,8 +31,6 @@ collections:
     - {label: "Publish Date", name: "date", widget: "datetime"}
     - {label: "Tags", name: "tags", widget: "list"}
     - {label: "Body", name: "body", widget: "markdown"}
-
-collections:
 - name: "contemplations" # Used in routes, e.g. /admin/collections/blog
   label: "Contemplations" # Used in the UI
   folder: "contemplations" # The path to the folder where the documents are stored
