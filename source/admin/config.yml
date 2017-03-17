@@ -11,7 +11,7 @@ public_folder: "/images/uploads"
 collections:
 - name: "journal" # Used in routes, e.g. /admin/collections/blog
   label: "Journal" # Used in the UI
-  folder: "journal" # The path to the folder where the documents are stored
+  folder: "source/journal" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
@@ -22,7 +22,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
 - name: "library" # Used in routes, e.g. /admin/collections/blog
   label: "Library" # Used in the UI
-  folder: "library" # The path to the folder where the documents are stored
+  folder: "source/library" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
@@ -33,7 +33,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown"}
 - name: "contemplations" # Used in routes, e.g. /admin/collections/blog
   label: "Contemplations" # Used in the UI
-  folder: "contemplations" # The path to the folder where the documents are stored
+  folder: "source/contemplations" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
