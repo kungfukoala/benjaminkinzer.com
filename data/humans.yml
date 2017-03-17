@@ -1,0 +1,36 @@
+# humans.txt content - more information here: http://humanstxt.org/
+team:
+  - name: Benjamin Kinzer
+    role: Designer and Developer
+    contact: "http://benjaminkinzer.com"
+
+shoutouts:
+  - name: Lucien Milla Frommer-Kinzer
+  - name: Chloe Frommer
+    contact: http://chloefrommer.com
+
+languages:
+  - English
+
+standards_used:
+  - CSS3
+  - HTML5
+  - JavaScript
+
+components_used:
+  - Middleman
+  - JQuery
+  - Modernizr
+  - HTML5 Boilerplate
+  - Normalize
+  - SASS
+  - Include Media
+  - Jeet
+  - Bourbon
+  - Netlify
+
+fonts_used:
+  - Franklin Gothic
+
+software_used:
+  - Atom

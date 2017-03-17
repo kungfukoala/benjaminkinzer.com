@@ -1,0 +1,1 @@
+(function(){document.onreadystatechange=function(){var e,n,t,r,c,i;if("interactive"===document.readyState&&!("undefined"!=typeof Modernizr&&null!==Modernizr?Modernizr.svg:void 0)){for(e=/.*\.svg$/,r=document.getElementsByTagName("img"),i=[],n=0,c=r.length;n<c;n++)t=r[n],t.src.match(e)?i.push(t.src=t.src.replace(/.svg$/,".png")):i.push(void 0);return i}}}).call(this);

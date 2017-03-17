@@ -1,0 +1,28 @@
+# Site wide settings
+site:
+  root_url: http://www.benjaminkinzer.com
+  title: benjamin kinzer
+  title_separator: " &mdash; "
+  meta_description: Benjamin Kinzer - Art Director and Designer - A master beginner
+  meta_keywords:
+    - designer
+    - design
+    - art director
+    - oakland
+    - california
+    - san francisco
+    - san leandro
+    - senior designer
+    - graphic designer
+    - graphic artist
+    - typography
+    - typography porn
+  author: Benjamin D. Kinzer
+  active_navigation_item_class: current
+  analytics_id: UA-857352-1
+
+# Author of CSS & JavaScript
+source:
+  author:
+    name: Benjamin Kinzer
+    uri: http://www.benjaminkinzer.com

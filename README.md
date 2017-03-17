@@ -1,22 +1,25 @@
-#Benjamin Kinzer's Website
-Portfolio of my work and backstories!
+# Benjamin Kinzer
+A website holding my sketches, explorations, work and art.
 
 ## Team
-Design & Development - Benjamin Kinzer (@kungfukoala) benjaminkinzer.com
+Design and Development - Benjamin Kinzer (@kungfukoala) benjaminkinzer.com
 
 ## Thanks
-Chloé Frommer and Lucien Milla Frommer-Kinzer
+* Chloe Frommer - Partner in Crime
+* Lucien Milla Frommer-Kinzer - Son
 
 ## Colophon
 ###Technology
-* [Jekyll](http://jekyllrb.com/)
+* [Middleman](http://middlemanapp.com/)
 * [SASS](http://sass-lang.com)
-* [SASS Media Queries](http://github.com/paranoida/sass-mediaqueries)
+* [Include Media](http://include-media.com)
 * [Bourbon](http://bourbon.io)
 * [Jeet](http://jeet.gs)
 * [HTML5 Boilerplate](https://html5boilerplate.com)
 * [Normalize](http://necolas.github.io/normalize.css/)
 * [JQuery](https://jquery.com/)
 * [Modernizer](http://modernizr.com/)
+* [Typekit](http://typekit.com/)
 
 ###Fonts
+* [Fontello](http://fontello.com/)
