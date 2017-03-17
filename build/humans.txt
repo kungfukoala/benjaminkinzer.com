@@ -2,16 +2,16 @@
 # The humans responsible & technology colophon
 
 /* TEAM */
-    <Jane Doe> - Example Role 1 - <@twitterhandle>
-    <John Doe> - Example Role 2 - <http://www.example.com>
+    <Benjamin Kinzer> - Designer and Developer - <http://benjaminkinzer.com>
 
 /* THANKS */
-    <Example company> -- <http://www.example.com>
+    <Lucien Milla Frommer-Kinzer> -- <>
+    <Chloe Frommer> -- <http://chloefrommer.com>
 
 /* SITE */
-    Last update: 2017-03-05
+    Last update: 2017-03-17
     Language: English
     Standards: CSS3, HTML5, JavaScript
-    Components: Middleman, JQuery, Modernizr, HTML5 Boilerplate, Normalize, SASS, Include Media, Jeet, Bourbon, Github Pages
-    Fonts: Helvetica
+    Components: Middleman, JQuery, Modernizr, HTML5 Boilerplate, Normalize, SASS, Include Media, Jeet, Bourbon, Netlify
+    Fonts: Franklin Gothic
     Software: Atom

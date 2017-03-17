@@ -30,7 +30,7 @@ activate :search_engine_sitemap
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.name = "Library"
+  blog.name = "library"
   blog.prefix = "library"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
@@ -45,8 +45,8 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  # blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
+  blog.tag_template = "tag.html"
+  blog.calendar_template = "calendar.html"
 
   # Enable pagination
   # blog.paginate = true
@@ -56,7 +56,7 @@ end
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.name = "Journal"
+  blog.name = "journal"
   blog.prefix = "journal"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
@@ -82,8 +82,8 @@ end
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  blog.name = "Contemplation"
-  blog.prefix = "contemplation"
+  blog.name = "contemplations"
+  blog.prefix = "contemplations"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files

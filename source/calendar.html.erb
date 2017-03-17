@@ -1,4 +1,5 @@
 ---
+title: Calendar
 pageable: true
 ---
 <h1>Archive for
@@ -21,7 +22,7 @@ pageable: true
 <% end %>
 
 <ul>
-  <% page_articles.each_with_index do |article, i| %>
+  <% blog('library').articles.each do |article, i| %>
     <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
   <% end %>
 </ul>
