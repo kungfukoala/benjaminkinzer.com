@@ -4,6 +4,8 @@
 //
 $res-collection:                      (320, 480, 768, 1024, 1280, 1680);
 $orientation-collection:              (all, portrait, landscape);
+// Breakpoints
+$breakpoints: (small: 320px, medium: 680px, large: 1000px, x-large: 1600px);
 //
 //
 // TYPOGRAPHY
