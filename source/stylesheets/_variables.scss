@@ -42,23 +42,38 @@ $base-z-index:                        0;
 //
 // COLORS
 //
-$black:                               rgb(0,0,0);
-$dark-grey:                           rgb(65,65,65);
-$grey:                                rgb(120,120,120);
-$light-grey:                          rgb(200,200,200);
-$yellow:                              yellow;
-$blue:                                rgb(102,102,102);
+$black:             rgb(40,38,52);
+$silver:            rgb(161,166,170);
+$cream:             rgb(249,235,196);
+$white:             rgb(255,255,255);
+// Secondary
+$red:               rgb(255,78,68);
+$rose:              rgb(222,117,113);
+$pinkrose:          rgb(255,179,145);
+// Tertiary
+$redlay:            rgb(189,146,139);
+// Color Lists Mixin
+$colors: (
+  $black 'black',
+  $silver 'silver',
+  $cream 'cream',
+  $white 'white',
+  $red 'red',
+  $rose 'rose',
+  $pinkrose 'pinkrose',
+  $redlay 'redlay',
+);
 // Base Colors
-$primary:                             $black;
-$secondary:                           white;
-$tertiary:                            $light-grey;
+$primary:                             $silver;
+$secondary:                           $black;
+$tertiary:                            $red;
 // Form Placeholder Colors
-$placeholder-color: $dark-gray;
+$placeholder-color:                   $white;
 // Font Colors
 $base-font-color:                     $secondary;
-$action-color:                        $test;
+$action-color:                        $red;
 // Border
-$base-border-color:                   $light-gray;
+$base-border-color:                   $secondary;
 $base-border:                         1px solid $base-border-color;
 // Background Colors
 $base-background-color:               $primary;
