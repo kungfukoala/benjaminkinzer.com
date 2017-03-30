@@ -588,6 +588,10 @@ img {
   font-style: normal;
   font-weight: normal;
   src: url("/assets/fonts/fontello.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fontello.woff") format("woff"), url("/assets/fonts/fontello.ttf") format("truetype"), url("/assets/fonts/fontello.svg#fontello") format("svg"); }
+p {
+  margin-top: 0;
+  margin-bottom: 0.9em; }
+
 a, a:visited {
   color: #282634; }
 
@@ -778,6 +782,9 @@ h6, .h6 {
   .highlight .il {
     color: #099; }
 
+code {
+  font-size: 1em; }
+
 body {
   -webkit-font-feature-settings: "kern", "liga", "pnum";
   -moz-font-feature-settings: "kern", "liga", "pnum";
@@ -863,7 +870,7 @@ body {
     @media screen and (max-width: 480px) {
       .project p {
         font-size: 1.2em;
-        padding: 1.35em 0.675em 1.35em 0.675em; } }
+        padding: 1.35em 0.9em 1.35em 0.9em; } }
   .project .project-footer {
     float: left;
     clear: none;
@@ -871,7 +878,7 @@ body {
     margin-left: 0%;
     margin-right: 3%;
     margin-top: 5.4em;
-    padding: 0.675em 0 1.7em 0;
+    padding: 0.9em 0 1.7em 0;
     border-top: 1px solid #a1a6aa;
     text-align: center; }
     .project .project-footer:last-child {
@@ -881,7 +888,7 @@ body {
       text-transform: uppercase;
       letter-spacing: 0.1em; }
     .project .project-footer li {
-      padding-bottom: 0.675em; }
+      padding-bottom: 0.9em; }
     @media screen and (min-width: 480px) {
       .project .project-footer {
         float: left;
@@ -918,27 +925,26 @@ body {
 .page {
   margin-top: 5em; }
 
-.stream {
-  font-size: 1.2em; }
-  .stream .post {
-    border-top: 5px solid black;
-    padding-top: 1.7em; }
-  .stream .post-header {
-    float: left;
-    clear: none;
-    width: 35.625%;
-    margin-left: 0%;
-    margin-right: 3%; }
-    .stream .post-header:last-child {
-      margin-right: 0%; }
-  .stream .post-body {
-    float: left;
-    clear: none;
-    width: 61.375%;
-    margin-left: 0%;
-    margin-right: 3%; }
-    .stream .post-body:last-child {
-      margin-right: 0%; }
+.stream .post {
+  border-top: 5px solid black;
+  padding-top: 1.7em; }
+.stream .post-header {
+  float: left;
+  clear: none;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .stream .post-header:last-child {
+    margin-right: 0%; }
+.stream .post-body {
+  font-size: 1.2em;
+  float: left;
+  clear: none;
+  width: 74.25%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .stream .post-body:last-child {
+    margin-right: 0%; }
 
 .masthead {
   width: 100%;
@@ -969,7 +975,7 @@ body {
 
 .subtitle {
   line-height: 1.7em;
-  margin: 0.675em 0; }
+  margin: 0.9em 0; }
 
 .footer {
   margin-top: 5.4em;
@@ -994,7 +1000,7 @@ body {
     background: transparent;
     border-bottom: 2px solid #a1a6aa; }
   .footer .newsletter .name {
-    padding-top: 0.675em; }
+    padding-top: 0.9em; }
   .footer .newsletter .button {
     margin-top: 1.35em;
     background-color: white;

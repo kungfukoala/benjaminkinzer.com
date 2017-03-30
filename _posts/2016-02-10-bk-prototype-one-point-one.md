@@ -72,7 +72,7 @@ As for the user, well there is a lot of confusion and extra work to navigate bet
 
 **Let's consider a few scenarios**
 
-- A **User** lands on the home page and clicks on a Project Thumbnail. They're like cool this is fun and scroll down. They now have the option to either use the browser back button or scroll to the top of the page can
+A **User** lands on the home page and clicks on a Project Thumbnail. They're like cool this is fun and scroll down. They now have the option to either use the browser back button or scroll to the top of the page can
 
 Apparently all my project pages have a 100% bounce rate. Should I laugh or cry? If I were viewing my site I would be frustrated that I had to click the back button or scroll to the top to see click on BENJAMIN KINZER to view other work. What if they landed on a specific project page, that rules out the browser back button.
 

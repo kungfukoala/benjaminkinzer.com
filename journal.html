@@ -7,9 +7,10 @@ permalink:      /journal/
   <div class="posts">
     {% for post in site.categories.journal %}
       <div class="post">
+        <h1 class="post-title">{{ post.title }}</h1>
         <header class="post-header">
           <date>{{ post.date | date: '%B %d, %Y' }}</date>
-          <h1 class="post-title">{{ post.title }}</h1>
+
         </header>
         <section class="post-body">
           {% if post.thumbnail %}
