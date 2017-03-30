@@ -497,6 +497,72 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic; }
 
+.icon-doc-text-inv:before, .icon-angle-right:before, ul li:before, .icon-glass:before, .icon-heart:before, .icon-twitter:before, .icon-facebook-1:before, .icon-github-1:before, .icon-instagram-1:before, .icon-apple:before, .icon-trello:before, .icon-tree:before, .icon-hand-paper-o:before, .icon-hand-scissors-o:before, .icon-hand-lizard-o:before, .icon-hand-spock-o:before, .icon-hand-pointer-o:before, .icon-hand-peace-o:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-doc-text-inv:before {
+  content: '\f15c'; }
+
+.icon-angle-right:before, ul li:before {
+  content: '\f105'; }
+
+.icon-glass:before {
+  content: '\e800'; }
+
+.icon-heart:before {
+  content: '\e801'; }
+
+.icon-twitter:before {
+  content: '\f099'; }
+
+.icon-facebook-1:before {
+  content: '\f09a'; }
+
+.icon-github-1:before {
+  content: '\f113'; }
+
+.icon-instagram-1:before {
+  content: '\f16d'; }
+
+.icon-apple:before {
+  content: '\f179'; }
+
+.icon-trello:before {
+  content: '\f181'; }
+
+.icon-tree:before {
+  content: '\f1bb'; }
+
+.icon-hand-paper-o:before {
+  content: '\f256'; }
+
+.icon-hand-scissors-o:before {
+  content: '\f257'; }
+
+.icon-hand-lizard-o:before {
+  content: '\f258'; }
+
+.icon-hand-spock-o:before {
+  content: '\f259'; }
+
+.icon-hand-pointer-o:before {
+  content: '\f25a'; }
+
+.icon-hand-peace-o:before {
+  content: '\f25b'; }
+
 @font-face {
   font-family: "franklin-gothic";
   font-style: normal;
@@ -517,6 +583,11 @@ img {
   font-style: italic;
   font-weight: 800;
   src: url("/assets/fonts/FranklinGothic-HvyIt-webfont.woff") format("woff"), url("/assets/fonts/FranklinGothic-HvyIt-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/assets/fonts/fontello.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fontello.woff") format("woff"), url("/assets/fonts/fontello.ttf") format("truetype"), url("/assets/fonts/fontello.svg#fontello") format("svg"); }
 a, a:visited {
   color: black; }
 
@@ -853,6 +924,28 @@ body {
 .page {
   margin-top: 5em; }
 
+.stream {
+  font-size: 1.2em; }
+  .stream .post {
+    border-top: 5px solid black;
+    padding-top: 1.7em; }
+  .stream .post-header {
+    float: left;
+    clear: none;
+    width: 35.625%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    .stream .post-header:last-child {
+      margin-right: 0%; }
+  .stream .post-body {
+    float: left;
+    clear: none;
+    width: 61.375%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    .stream .post-body:last-child {
+      margin-right: 0%; }
+
 .masthead {
   width: 100%;
   margin-bottom: 5.4em; }
@@ -864,8 +957,9 @@ body {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0;
-    list-style-type: none; }
+    margin: 0; }
+    .navigation ul li:before {
+      content: none; }
   .navigation li {
     float: left;
     display: inline;

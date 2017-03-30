@@ -4,7 +4,11 @@
     width:100%;
     padding:0;
     margin:0;
-    list-style-type:none;
+    li {
+      &:before {
+        content: none;
+      }
+    }
   }
   a {
     @if not $width {

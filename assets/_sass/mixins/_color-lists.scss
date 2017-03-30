@@ -1,0 +1,17 @@
+// Andrew Martin
+// http://blog.andrewmart.in/2014/05/18/more-lists-with-sass/
+@mixin generate-colors() {
+  @each $color in $colors {
+    .color-#{nth($color, 2)} {
+      color: nth($color, 1);
+    }
+    .bg-#{nth($color, 2)} {
+      background: nth($color, 1);
+    }
+    .border-#{nth($color, 2)} {
+      border-color: nth($color, 1);
+    }
+  }
+}
+
+@include generate-colors();

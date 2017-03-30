@@ -1,0 +1,85 @@
+%icons {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  // For safety - reset parent styles, that can break glyph codes
+  font-variant: normal;
+  text-transform: none;
+  // fix buttons height, for twitter bootstrap
+  line-height: 1em;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-doc-text-inv:before {
+  @extend %icons;
+  content: '\f15c';
+}
+.icon-angle-right:before {
+  @extend %icons;
+  content: '\f105';
+}
+.icon-glass:before {
+  @extend %icons;
+  content: '\e800';
+}
+.icon-heart:before {
+  @extend %icons;
+  content: '\e801';
+}
+.icon-twitter:before {
+  @extend %icons;
+  content: '\f099';
+}
+.icon-facebook-1:before {
+  @extend %icons;
+  content: '\f09a';
+}
+.icon-github-1:before {
+  @extend %icons;
+  content: '\f113';
+}
+.icon-instagram-1:before {
+  @extend %icons;
+  content: '\f16d';
+}
+.icon-apple:before {
+  @extend %icons;
+  content: '\f179';
+}
+.icon-trello:before {
+  @extend %icons;
+  content: '\f181';
+}
+.icon-tree:before {
+  @extend %icons;
+  content: '\f1bb';
+}
+.icon-hand-paper-o:before {
+  @extend %icons;
+  content: '\f256';
+}
+.icon-hand-scissors-o:before {
+  @extend %icons;
+  content: '\f257';
+}
+.icon-hand-lizard-o:before {
+  @extend %icons;
+  content: '\f258';
+}
+.icon-hand-spock-o:before {
+  @extend %icons;
+  content: '\f259';
+}
+.icon-hand-pointer-o:before {
+  @extend %icons;
+  content: '\f25a';
+}
+.icon-hand-peace-o:before {
+  @extend %icons;
+  content: '\f25b';
+}

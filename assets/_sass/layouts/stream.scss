@@ -1,0 +1,13 @@
+.stream {
+  font-size: $font-medium;
+  .post {
+    border-top: 5px solid black;
+    padding-top: $spacing-large;
+  }
+  .post-header {
+    @include column(3/8);
+  }
+  .post-body {
+    @include column(5/8);
+  }
+}
