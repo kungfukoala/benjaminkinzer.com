@@ -40,7 +40,7 @@
     @include col(1/1);
     margin-top:$spacing-xlarge;
     padding:$spacing-small 0 $spacing-large 0;
-    border-top:1px solid $light-grey;
+    border-top:1px solid $silver;
     text-align:center;
     strong {
       font-size:$font-xsmall;
@@ -59,7 +59,7 @@
     margin:$spacing-xlarge 0;
   }
   .project-date {
-    color:$grey;
+    color:$silver;
   }
   .note {
     @include col(1/12);
