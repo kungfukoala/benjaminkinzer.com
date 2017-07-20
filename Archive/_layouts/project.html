@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <h2 class="project-subtitle">{{ page.subtitle }}</h2>
+    {% endif %}
+  </header>
+  <article class="project-content">
+    {{ content }}
+  </article>
+  <aside class="project-information">
+    <h3>Credits</h3>
+    <ul>
+    {% for credit_hash in page.credits %}
+    {% assign credit = credit_hash[1] %}
+      <li><strong>{{ credit.descriptor }}</strong><br> {{ credit.name }}</li>
+    {% endfor %}
+      <li><strong>Project Date</strong><br> {{ page.date | date: "%b %Y" }}</li>
+      {% if page.tags %}
+      <li><strong>Filed under</strong><br> {{ page.tags | join: ' ' }}</li>
+      {% endif %}
+    </ul>
+    {% if site.show_sharing %}
+      {% include sharing.html %}
+    {% endif %}
+  </aside>
+  <footer class="project-footer">
+    {% for post in site.categories.project %}
+      <div class="post">
+        <header class="post-header">
+          <h3 class="post-title">{{ post.title }}</h3>
+        </header>
+        {% if post.thumbnail %}
+        <a href="{{ post.url | prepend: site.baseurl }}"><img src="{{ "/images/" | prepend: site.baseurl }}{{ post.thumbnail }}"></a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </footer>
+
+  {% if site.show_related_posts %}
+    <h3 class="related-post-title">Related Posts</h3>
+    {% for post in site.related_posts %}
+      <div class="post-related">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <h4 class="post-title">{{ post.title }}</h4>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

@@ -1,0 +1,71 @@
+.project {
+  width:100%;
+  padding:$spacing-large 0;
+  .project-title {
+    font-size:5em;
+    line-height:0.8em;
+    margin:0px;
+    text-transform:uppercase;
+    // iPhone 6 Plus down, and iPhone 4 Lanscape down
+    @include max-screen(nth($res-collection, 2)*1px) {
+      font-size:2.5em;
+    }
+  }
+  .project-subtitle {
+    font-size:1.0em;
+    margin:0px;
+  }
+  .project-header {
+    position:absolute;
+    @include col(1/3);
+    margin-top:-35px;
+    padding-left:10px;
+  }
+  p {
+    font-size:$font-large;
+    // iPhone 6 Plus down, and iPhone 4 Lanscape down
+    @include max-screen(nth($res-collection, 2)*1px) {
+      font-size:$font-medium;
+    }
+  }
+  .project-information {
+    li {
+      @include col(1/8);
+      &:before {
+        content: none;
+      }
+    }
+  }
+  .project-footer {
+    @include col(1/1);
+    margin-top:$spacing-xlarge;
+    padding:$spacing-small 0 $spacing-large 0;
+    border-top:1px solid $silver;
+    text-align:center;
+    strong {
+      font-size:$font-xsmall;
+      text-transform:uppercase;
+      letter-spacing:$letter-spacing-base;
+    }
+    li {
+      padding-bottom:$spacing-small;
+    }
+    @include min-screen(nth($res-collection, 2)*1px) {
+      @include col(4/8);
+    }
+  }
+  .project-footer {
+    @include col(1/1);
+    margin:$spacing-xlarge 0;
+  }
+  .project-date {
+    color:$silver;
+  }
+  .note {
+    @include col(1/12);
+    font-size:1.0em;
+    text-transform:uppercase;
+    padding:$spacing-medium 0;
+    background-color:white;
+  }
+}

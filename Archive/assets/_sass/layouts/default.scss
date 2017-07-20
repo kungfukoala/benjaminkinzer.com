@@ -1,0 +1,24 @@
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing:antialiased;
+  color:$base-font-color;
+  font-family:$font-family;
+  font-size:$font-size;
+  background-color:$base-background-color;
+}
+.masthead {
+  @include center(90%);
+}
+.container {
+  @include col(1/1);
+}
+.page {
+  @include center(1440px, $pad: 10px);
+  margin-bottom:$spacing-xlarge;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    @include center(90%);
+  }
+}
+.footer {
+  @include col(1/1);
+}
